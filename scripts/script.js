@@ -1,8 +1,18 @@
 // Array of image URLs
 const images = [
-  'image1.jpg',
-  'image2.jpg',
-  'image3.jpg',
+  'images/fav-grafitti.JPG',
+  'images/building-light.JPG',
+  'images/dat-one-mtn.JPG',
+  'images/slc-long-exposure.JPG',
+  'images/day-dragon.JPG',
+  'images/desert-tree.JPG',
+  'images/dumpster-dive.JPG',
+  'images/night-dragon.JPG',
+  'images/indicator.JPG',
+  'images/or-wave.JPG',
+  'images/recycle-clown.JPG',
+  'images/shoes-grafitti.JPG',
+  
   // Add more image URLs here
 ];
 
@@ -18,12 +28,31 @@ function createGallery() {
     img.src = imageURL;
 
     img.addEventListener('click', () => {
-      // Handle click event, e.g., open a modal or navigate to a detailed view
-      console.log('Image clicked:', imageURL);
+      showOriginalImage(imageURL);
     });
 
     imgContainer.appendChild(img);
     gallery.appendChild(imgContainer);
+  });
+}
+
+// Function to display the original image in a modal or separate view
+function showOriginalImage(imageURL) {
+  const overlay = document.createElement('div');
+  overlay.className = 'overlay';
+
+  const modal = document.createElement('div');
+  modal.className = 'modal';
+
+  const img = document.createElement('img');
+  img.src = imageURL;
+
+  modal.appendChild(img);
+  overlay.appendChild(modal);
+  document.body.appendChild(overlay);
+
+  overlay.addEventListener('click', () => {
+    document.body.removeChild(overlay);
   });
 }
 
