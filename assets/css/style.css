@@ -6,14 +6,14 @@ body {
 }
 
 header {
-  background-image: url("../images/hero-bg.jpg");
+  background-image: url("/Users/Cade/Documents/Code/photography-gallery/images/recycle-clown.JPG");
   background-size: cover;
-  background-position: 80%;
+  background-position: 85%;
   background-attachment: fixed;
   display: flex;
   justify-content: space-between;
-  padding: 20px 35px;
-  background-color: var(--tertiary-color);
+  padding: 25px 40px;
+  /* background-color: var(--tertiary-color); */
   flex-wrap: wrap;
   position: -webkit-sticky;
   position: sticky;
@@ -21,8 +21,46 @@ header {
   z-index: 9999;
 }
 
-h1 {
-  color: #333;
+header h1 {
+  font-weight: bold;
+  font-size: 36px;
+  color: var(--primary-color);
+  margin: 0;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+header a {
+  font-family: "Audiowide", sans-serif;
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+header nav {
+  margin: 7px 0;
+}
+
+header nav ul {
+  padding-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+
+header nav ul li a {
+  padding: 10px 30px;
+  font-weight: lighter;
+  font-size: 1.55vw;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+header nav ul li a:hover {
+  background: var(--primary-color);
+  color: gold;
+  /* border-radius: 15px; */
+  text-shadow: none;
+  border-bottom: solid gold ;
 }
 
 #gallery {
@@ -36,8 +74,12 @@ h1 {
   font-size: 1.5em;
   color: slateblue;
   text-align: left;
-  padding-left: 13%;
   padding-bottom: 2%;
+}
+
+#title:hover {
+  text-shadow: 0 0 25px white;
+  color: gold;
 }
 
 .img-container {
@@ -45,7 +87,7 @@ h1 {
 }
 
 .img-container img {
-  width: 350px;
+  width: 420px;
   height: 350px;
   object-fit: cover;
   cursor: pointer;
