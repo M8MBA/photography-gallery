@@ -87,10 +87,15 @@ p {
 }
 
 #gallery {
+  background-image: url("/Users/Cade/Documents/Code/photography-gallery/images/brick-wall.jpg");
+  background-attachment: fixed;
+  background-position: top;
+  background-size: cover;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   padding-top: 2%;
+  object-position: 80% 20%;
 }
 
 #title {
