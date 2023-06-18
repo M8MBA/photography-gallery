@@ -1,7 +1,7 @@
 body {
   font-family: Arial, sans-serif;
   margin: 0;
-  padding: 20px;
+  padding: 8px;
   text-align: center;
 }
 
@@ -64,10 +64,33 @@ header nav ul li a:hover {
   border-bottom: solid gold ;
 }
 
+#profile-pic {
+  height: 300px;
+  width: 300px;
+  padding-top: 4%;
+  padding-left: 6%;
+  filter: grayscale(90%);
+}
+
+section {
+  display: flex;
+  justify-content: space-between;
+  font-family: "Audiowide", sans-serif;
+  font-size: 1.4em;
+  background: rgba(20, 0, 145, 0.14);
+  color: black;
+} 
+
+p {
+  margin: auto;
+  padding: 7%;
+}
+
 #gallery {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  padding-top: 2%;
 }
 
 #title {
@@ -88,7 +111,7 @@ header nav ul li a:hover {
 }
 
 .img-container img {
-  width: 420px;
+  width: 520px;
   height: 350px;
   object-fit: cover;
   cursor: pointer;
