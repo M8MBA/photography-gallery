@@ -146,3 +146,69 @@ p {
   width: 100%;
   height: auto;
 }
+
+footer{
+  margin: auto;
+  font-family: "Audiowide", sans-serif;
+  font-size: 36px;
+  color: slateblue;
+  background-color: rgba(20, 0, 145, 0.14);
+}
+
+address {
+  padding-top: 25px;
+}
+
+#contact:link {
+  color: slateblue;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+#contact:visited {
+  color: pink;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+#contact:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+#contact:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.social {
+ display: flex;
+ justify-content: center;
+ padding-top: 2%;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Facebook */
+.fa-facebook {
+  background-color: none;
+  color: #3B5998;
+}
+
+/* Instagram */
+.fa-instagram {
+  background-color: none;
+  color: pink;
+}
