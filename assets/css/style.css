@@ -65,10 +65,11 @@ header nav ul li a:hover {
 }
 
 #profile-pic {
-  height: 300px;
-  width: 300px;
-  padding-top: 4%;
-  padding-left: 6%;
+  height: 280px;
+  width: 280px;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-left: 5%;
   filter: grayscale(90%);
 }
 
@@ -77,13 +78,14 @@ section {
   justify-content: space-between;
   font-family: "Audiowide", sans-serif;
   font-size: 1.4em;
-  background: rgba(20, 0, 145, 0.14);
+  /* background: rgba(20, 0, 145, 0.14); */
+  background-image: linear-gradient(to bottom right, slateblue, gold);
   color: black;
 } 
 
-p {
-  margin: auto;
-  padding: 7%;
+.bio {
+  margin: auto 3%;
+  /* padding-top: 5%; */
 }
 
 #gallery {
@@ -150,9 +152,12 @@ p {
 footer{
   margin: auto;
   font-family: "Audiowide", sans-serif;
-  font-size: 36px;
+  font-size: 30px;
   color: slateblue;
-  background-color: rgba(20, 0, 145, 0.14);
+  /* background-color: rgba(20, 0, 145, 0.14); */
+  background-image: linear-gradient(to bottom right, gold, slateblue);
+  border-top: solid gold 5px;
+
 }
 
 address {
@@ -183,16 +188,17 @@ address {
   text-decoration: underline;
 }
 
-.social {
+#social {
+  font-size: 45px;
  display: flex;
  justify-content: center;
- padding-top: 2%;
 }
 
 .fa {
   padding: 20px;
-  font-size: 30px;
-  width: 50px;
+  padding-top: 3%;
+  font-size: 35px;
+  width: 75px;
   text-align: center;
   text-decoration: none;
 }
@@ -204,11 +210,30 @@ address {
 /* Facebook */
 .fa-facebook {
   background-color: none;
-  color: #3B5998;
+  color: slateblue;
 }
 
 /* Instagram */
 .fa-instagram {
   background-color: none;
-  color: pink;
+  color: slateblue;
+}
+
+/* GitHub */
+.fa-github {
+  background-color: none;
+  color: slateblue;
+}
+
+/* Linkedin */
+.fa-linkedin {
+  background-color: none;
+  color: slateblue;
+}
+
+p {
+  margin: auto;
+  padding-top: 3%;
+  padding-bottom: 2%;
+  font-size: 20px;
 }
