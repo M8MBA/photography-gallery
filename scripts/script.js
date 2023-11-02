@@ -1,17 +1,17 @@
 // Array of image URLs
 const images = [
-  'images/fav-grafitti.JPG',
-  'images/building-light.JPG',
-  'images/dat-one-mtn.JPG',
-  'images/slc-long-exposure.JPG',
-  'images/day-dragon.JPG',
-  'images/desert-tree.JPG',
-  'images/dumpster-dive.JPG',
-  'images/night-dragon.JPG',
-  'images/indicator.JPG',
-  'images/or-wave.JPG',
-  'images/recycle-clown.JPG',
-  'images/shoes-grafitti.JPG',
+  'assets/css/images/fav-grafitti.JPG',
+  'assets/css/images/building-light.JPG',
+  'assets/css/images/dat-one-mtn.JPG',
+  'assets/css/images/slc-long-exposure.JPG',
+  'assets/css/images/day-dragon.JPG',
+  'assets/css/images/desert-tree.JPG',
+  'assets/css/images/dumpster-dive.JPG',
+  'assets/css/images/night-dragon.JPG',
+  'assets/css/images/indicator.JPG',
+  'assets/css/images/or-wave.JPG',
+  'assets/css/images/recycle-clown.JPG',
+  'assets/css/images/shoes-grafitti.JPG',
   
   // Add more image URLs here
 ];
